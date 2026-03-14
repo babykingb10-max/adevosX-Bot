@@ -2,7 +2,7 @@ const settings = {
   packname: '',
   author: 'Davex Tech',
   botName: "ADEVOS-X BOT",
-  botOwner: 'Dave',
+  botOwner: 'Adevos',
   ownerNumber: '255663402315',
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
