@@ -1,6 +1,6 @@
 const settings = {
   packname: '',
-  author: 'Davex Tech',
+  author: 'Adevos,
   botName: "ADEVOS-X BOT",
   botOwner: 'Adevos',
   ownerNumber: '255663402315',
