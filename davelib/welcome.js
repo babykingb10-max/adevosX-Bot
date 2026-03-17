@@ -8,11 +8,11 @@ async function handleWelcome(sock, chatId, message, match) {
     
     if (!match) {
         return sock.sendMessage(chatId, {
-            text: `╭─❖ *WELCOME SETTINGS* ❖─╮\n` +
+            text: `╭─❖ *WELCOME SETTINGS* ❖─\n` +
                   `│ .welcome on - Enable\n` +
                   `│ .welcome set <msg> - Customize\n` +
                   `│ .welcome off - Disable\n` +
-                  `╰─────────────────╯\n\n` +
+                  `╰─────────────────────\n\n` +
                   `Variables: {user}, {group}, {description}, {bot}`,
         }, { quoted: fake });
     }
@@ -58,11 +58,11 @@ async function handleGoodbye(sock, chatId, message, match) {
 
     if (!match) {
         return sock.sendMessage(chatId, {
-            text: `╭─❖ *GOODBYE SETTINGS* ❖─╮\n` +
+            text: `╭─❖ *GOODBYE SETTINGS* ❖──\n` +
                   `│ .goodbye on - Enable\n` +
                   `│ .goodbye set <msg> - Customize\n` +
                   `│ .goodbye off - Disable\n` +
-                  `╰───────────────────╯\n\n` +
+                  `╰──────────────────────\n\n` +
                   `Variables: {user}, {group}, {bot}`,
         }, { quoted: fake });
     }
