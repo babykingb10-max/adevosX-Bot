@@ -15,7 +15,7 @@ async function sendAntiStatus(sock, chatId, message, {
     const statusLine = `Status: ${currentMode.toUpperCase()}`;
     const extraLine = extraInfo ? `\n│ ${extraInfo}` : '';
 
-    const infoCard = `┌─ *${botName} ${label}* ─┐\n│\n│ ${statusLine}${extraLine}\n│\n└─────────────────────┘`;
+    const infoCard = `┌─ *${botName} ${label}* ─┐\n│\n│ ${statusLine}${extraLine}\n│\n└───────────────────┘`;
 
     const interactiveButtons = modes.map(m => ({
         name: 'quick_reply',
